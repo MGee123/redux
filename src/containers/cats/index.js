@@ -10,7 +10,7 @@ render() {
       <Cat
         
         onGenCat={(cats) => this.props.dispatch(catFire())}
-        
+        nowCat={this.props.cats}
       />
     )
   }
