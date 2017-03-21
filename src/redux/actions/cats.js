@@ -1,0 +1,1 @@
+export const onGenCat = (cats) => ({ type: 'cats/GEN_CAT', payload: cats })
