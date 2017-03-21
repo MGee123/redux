@@ -7,9 +7,8 @@ const initialState = { cats: [ {name: 'Ginger', img: 'http://www.warrenphotograp
 
 
 export default function cats(state = initialState, action) {
-  const genCat = () =>  {
-    return state.cats[_.random(0, state.cats.length -1)]
-  }
+  const genCat = () =>  {  return state.cats[_.random(0, state.cats.length -1)]
+   }
 
 
 

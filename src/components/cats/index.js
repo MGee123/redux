@@ -4,5 +4,5 @@ import Cats from './cats'
 
 export default (props) =>
   <div>
-    <Cats onGenCat={props.onGenCat} />
+    <Cats onGenCat={() => props.onGenCat()} />
   </div>
