@@ -1,1 +1,1 @@
-export const onGenCat = (cats) => ({ type: 'cats/GEN_CAT', payload: cats })
+export const catFire = (cats) => ({ type: 'cats/GEN_CAT', payload: cats })
