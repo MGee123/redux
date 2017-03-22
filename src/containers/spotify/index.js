@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { requestAlbums, receiveAlbums } from 'redux/actions/spotify'
+import { get } from 'redux/actions/spotify'
 import ArtistAlbums from 'components/spotify'
 
 class BushContainer extends Component {
@@ -8,7 +8,7 @@ class BushContainer extends Component {
  render() {
  	return (
  	  <ArtistAlbums
- 	  getAlbums={() => this.props.dispatch(requestAlbums())}
+ 	  get={() => this.props.dispatch(get())}
  	  albums={this.props.albums}
  	  
  	  /> )

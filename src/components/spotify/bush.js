@@ -6,9 +6,6 @@ export default (props) => {
 
     	<div>
     	 <p>Kate Bush</p>
-    	 <p>{props.albums}</p>
-         <button onClick={() => props.getAlbums()}>Get Albums</button>
+    	 <p>{props.album}</p>
          </div>
-    	)
-    
-  }
+    )}
