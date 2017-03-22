@@ -6,6 +6,6 @@ export default (props) => {
 
     	<div>
     	 <p>Kate Bush</p>
-    	 <p>{props.album}</p>
+    	 <p>{props.albums}</p>
          </div>
     )}
